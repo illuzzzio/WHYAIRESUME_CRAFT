@@ -1,6 +1,6 @@
-WHYAIRESUME – AI-Powered Resume Builder
 
-WHYAIRESUME is a simple and easy-to-use resume builder created using Python. It leverages the ReportLab library to generate professional PDF resumes directly from user input. With this tool, you can create clean, ATS-friendly resumes with just a few clicks.
+
+WHYAIRESUME is a simple and easy-to-use non AI resume builder created using Python. It leverages the ReportLab library to generate professional PDF resumes directly from user input. With this tool, you can create clean, ATS-friendly resumes in just a few clicks.
 
 Features
 
@@ -24,7 +24,18 @@ ReportLab – for PDF generation (pip install reportlab)
 
 Tkinter – for creating the graphical user interface (GUI)
 
+Repo Structure
+
+The repository contains a combination of Python, HTML, and TeX files, with Python being the main driver. HTML and TeX files are included mainly to support PyInstaller, which converts the Python script into a standalone .exe file.
+
+resume.py – main Python application
+
+dist/ – contains the generated .exe file, which can be run directly without installing Python
+
+assets/ – optional folder for images, templates, or other resources
+
 How to Run
+Using Python
 
 Clone the repository:
 
@@ -44,6 +55,12 @@ pip install reportlab
 Run the application:
 
 python resume.py
+
+Using the Pre-built Executable
+
+Navigate to the dist/ directory.
+
+Run resume.exe (no Python installation required).
 
 How It Works
 
