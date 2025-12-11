@@ -1,10 +1,56 @@
-Its a easy resume builder using python , i have used framework called reportlab , usign pip install reportlab
-i have created various functions inside resume.py file , for the canvas, and different field names in the resume , you can refer to that..
+WHYAIRESUME – AI-Powered Resume Builder
 
-HOW TO RUN :
-Clone the github repo using git clone repo_name command..
+WHYAIRESUME is a simple and easy-to-use resume builder created using Python. It leverages the ReportLab library to generate professional PDF resumes directly from user input. With this tool, you can create clean, ATS-friendly resumes with just a few clicks.
 
-I created a exe file for the python code using pyinstaller , for for creating new exe file , you can see the command in exe_converter_cmd file..
-So all you have to do is , go under the dir called dist and run the file resume.exe , enter the fields , and you can even optimise the resume into one page , using my python code , i have basically removed the unecessary gaps and changed the text size in the code , if your resume overflows to the next page...
-the resume will be automatically saved as yourname.pdf format and you can even upload your photo in the resume...
-Thank You!
+Features
+
+Fill in your personal details, skills, experience, projects, education, and links.
+
+Upload your profile photo to include in the resume.
+
+Automatically formats sections and text to generate a professional-looking resume.
+
+Optimized mode available to fit the resume into one page.
+
+Supports highlighting project names and tech stack separately.
+
+Generates resumes in PDF format for easy sharing.
+
+Technology Used
+
+Python – main programming language
+
+ReportLab – for PDF generation (pip install reportlab)
+
+Tkinter – for creating the graphical user interface (GUI)
+
+How to Run
+
+Clone the repository:
+
+git clone <repo_name>
+
+
+Navigate to the project directory:
+
+cd <repo_name>
+
+
+Install dependencies:
+
+pip install reportlab
+
+
+Run the application:
+
+python resume.py
+
+How It Works
+
+Fill in the fields in the GUI including your name, email, phone, skills, projects, and education.
+
+Upload a profile photo (optional).
+
+Choose the “Optimize Resume Length” option if you want the resume to fit on a single page.
+
+Click Generate PDF Resume – your resume is saved as a professional PDF file ready to share or print.
